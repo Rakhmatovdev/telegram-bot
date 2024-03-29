@@ -1,0 +1,19 @@
+{
+  "name": "instasave-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "Salom",
+    "watch": "nodemon -e ts  -w srs --exec ts-node srs/index.ts"
+  },
+  "dependencies": {
+    "grammy": "^1.21.1"
+  },
+  "devDependencies": {
+    "axios": "^1.6.7",
+    "nodemon": "^3.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
